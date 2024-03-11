@@ -1,0 +1,36 @@
+{
+  "name": "loong-cli",
+  "version": "1.0.0",
+  "description": "this is a web-front-end progject creat cli based webpack5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "loong": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "loong-cli"
+  },
+  "keywords": [
+    "webpack5",
+    "cli",
+    "frontend"
+  ],
+  "author": "LoveEmiliaForever",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "child_process": "^1.0.2",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.0.0",
+    "node-fetch": "^2.7.0",
+    "ora": "^5.0.0",
+    "path": "^0.12.7",
+    "simple-git": "^3.22.0",
+    "webpack": "^5.90.3"
+  }
+}
